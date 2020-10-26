@@ -1,0 +1,243 @@
+/* font */
+
+@font-face {
+    font-family: "PodkovaRegular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../font/Podkova-Regular-webfont.woff") format("woff");
+}
+
+* {
+    font-family: "PodkovaRegular";
+}
+
+p {
+    font: 12px PodkovaRegular;
+}
+
+li, td, th {
+    font: 14px PodkovaRegular;
+}
+
+th {
+    font-weight: bold;
+}
+
+/* all pages*/
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: #F3F3F3;
+}
+
+header {
+    background-color: white;
+}
+
+a, a:hover, a:active, a:after, a:in-range, a:visited, a:focus {
+    color: black;
+    text-decoration: none;
+}
+
+button {
+    margin: 10px 5px;
+}
+
+table {
+    margin: 10px 0;
+    padding: 0;
+}
+
+section.section {
+    border-top: 6px solid #9C5324;
+    background-color: white;
+    margin: 0;
+    box-shadow: 0 2px 3px;
+    padding: 0 50px 40px 40px;
+}
+
+.tableSite {
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.tableSite tr, .tableSite td {
+    border: 1px solid lightgray;
+
+}
+
+.tableSite tr:nth-of-type(odd) {
+    background-color: #FFF8DC;
+}
+
+/* Master layouts */
+
+header {
+    box-shadow: 0 0 10px;
+}
+
+#nav {
+    padding: 0;
+}
+
+#bar2 {
+    box-shadow: 0 0 0.5em lightgray;
+}
+
+#barmenu a {
+    font: 13px Century Gothic;
+    text-align: center;
+    color: black;
+}
+
+#barmenu a.navactive {
+
+    -moz-box-shadow: inset 0 22px 20px -10px #5c2400;
+    -webkit-box-shadow: inset 0 22px 20px -10px #5c2400;
+    box-shadow: inset 0 22px 20px -10px #5c2400;
+
+    background: #9D5324;
+    color: white;
+}
+
+#barmenu a:hover {
+    background: #9D5300;
+    color: white;
+}
+
+#barmenu a#loginFlag:active  {
+    background: #9D5300 ;
+    color: white;
+}
+
+#mobilemenu {
+    font: 18px century gothic;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+.underline a {
+    text-decoration: underline;
+}
+
+#CRsection {
+    box-shadow: 0 -1px 0.5em #E0E0E0;
+    padding: 0;
+    background-color: white;
+    margin-top: -7px;
+}
+
+#CR {
+    color: gray;
+    font-size: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+/* Welcome Page*/
+
+.textWelcome p {
+    font-size: 13px;
+    text-indent: 2%;
+    line-height: 16px;
+}
+
+.textWelcome {
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+/* Axe Page*/
+a span.titreAxe {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.textAxe {
+    text-indent: 2%;
+    padding-left: 10px;
+}
+
+/* Member Page*/
+.titreMembre {
+    font-size: 14px;
+    font-size-adjust: inherit;
+    font-weight: normal;
+}
+
+/* publication Page*/
+.titrePublication {
+    font-size: 14px;
+    font-size-adjust: inherit;
+    font-weight: normal;
+}
+
+.publicationjournal {
+    font-size: 11px;
+}
+
+/* project Page*/
+.responsableProjects * {
+    font-size: 12px;
+    padding: 0 15px;
+    margin: 0;
+}
+
+.thproject {
+    background-color: #793910;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+}
+
+.responsableUL ul{
+    margin: 0 ;
+    padding-left: 10px;
+    font-size: small;
+}
+.responsableUL li {
+
+    padding-left: 0px;
+    font-size: small;
+}
+
+/* Event Page*/
+.titleEvent {
+    margin: 0;
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+}
+
+#eventSection {
+    border-top: none;
+    margin-top: 10px;
+}
+
+.eventImage {
+    vertical-align: middle;
+}
+
+.textEvent {
+    margin: 0;
+    padding: 0;
+}
+
+.textEvent p {
+    text-indent: 10%;
+}
+
+a.lirePlus {
+    color: #17B0EA;
+}
+
+/*  Error Page */
+
+.error {
+    color: white;
+    font-size: 200px;
+    text-align: center;
+    text-shadow: 20px 20px 40px #000000;
+}
